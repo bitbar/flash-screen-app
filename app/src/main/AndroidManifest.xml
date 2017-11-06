@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.bitbar.testdroid.monitor.flash"
+    android:versionCode="51"
+    android:versionName="3.0.50">
+
+    <uses-sdk android:targetSdkVersion="22" />
+
+    <application
+            android:icon="@drawable/ic_launcher"
+            android:label="Flash Screen Application" android:allowBackup="false">
+        <activity
+            android:name="FlashActivity"
+            android:label="Flash Screen Activity"
+            android:launchMode="singleInstance"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
